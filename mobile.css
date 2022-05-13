@@ -1,4 +1,4 @@
-@media screen and (max-width: 896px) {
+@media only screen and (max-width: 480px) {
 
     /*---------------------------------- Cabeçalho ---------------------------------------------------*/
     #logo {
@@ -7,16 +7,9 @@
     }
 
     /*---------------------------------- Geral -------------------------------------------------------*/
-    html {
-        height: 100%;
-    }
 
     main {
         flex-direction: column;
-    }
-
-    body {
-        height: 100%;
     }
 
     /*---------------------------------- Entrada de texto --------------------------------------------*/
@@ -24,6 +17,7 @@
     .input-texto {
         margin: 8% 20% 0 10%;
         width: 80%;
+        height: 100%;
         background-color: #1F1D36;
     }
 
@@ -33,38 +27,36 @@
 
     .informacao {
         margin-left: 10%;
+        font-size: 45%;
     }
 
     /*---------------------------------- Botões da entrada de texto ----------------------------------*/
 
     .encriptar {
-        margin: 0 0 0 10%;
-        width: 35%;
+        font-size: 50%;
     }
 
     .desencriptar {
-        text-align: center;
-        margin: 0 0 0 4%;
-        width: 40%;
+        font-size: 50%;
     }
 
     /*---------------------------------- Caixa de saída de texto -------------------------------------*/
 
     .output-box {
         margin: 0 0 0 10%;
-        width: 80%;
-        height: 90%;
     }
 
     .output-texto {
-        background-position-x: 30px;
+        margin: 2% 3% 0 5%;
         background-position-y: center;
-        width: 80%;
+        background-size: 90%;
     }
 
     /*---------------------------------- Botão de Copiar ---------------------------------------------*/
 
     #copiar {
         margin: 3% 0 4% 0;
+        padding: 2% 0;
+        font-size: 40%;
     }
 }
