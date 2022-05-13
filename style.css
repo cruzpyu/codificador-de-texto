@@ -19,6 +19,11 @@ main {
     background: #3F3351;
 }
 
+body,
+html {
+    height: 100%;
+}
+
 /*---------------------------------- Entrada de texto --------------------------------------------*/
 .informacao {
     margin-left: 330px;
@@ -50,7 +55,7 @@ main {
     display: flex;
     margin-top: 2%;
     flex-direction: row;
-    margin-bottom: 50px;
+    margin-bottom: 7%;
 }
 
 .encriptar {
@@ -148,8 +153,6 @@ main {
 /*---------------------------------- Botão de Copiar ---------------------------------------------*/
 
 #copiar {
-    box-shadow: inset 0px 1px 0px 0px #ffffff;
-    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
     background-color: #f9f9f9;
     border-radius: 7px;
     border: 1px solid #dcdcdc;
@@ -162,6 +165,7 @@ main {
     text-decoration: none;
     margin: 2% 0 0 33%;
     width: 15%;
+    border: none;
 }
 
 #copiar:hover {
@@ -169,7 +173,8 @@ main {
 }
 
 #copiar:active {
-    background-color: darkolivegreen;
+    background: green;
+    color: white;
 }
 
 
