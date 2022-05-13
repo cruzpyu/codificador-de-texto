@@ -19,7 +19,9 @@
     <!--CSS mobile-->
     <link rel="stylesheet" href="mobile.css">
     <!--CSS tablet-->
-    <link rel="stylesheet" href="tablet.css">        
+    <link rel="stylesheet" href="tablet.css">   
+     <!--viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 </head>
 
 <body>
@@ -38,9 +40,9 @@
                 <textarea class="input-texto" id="entrada" placeholder="Digite seu texto" cols="18" rows="8"></textarea>
                 <h6 class="informacao">🛈 Apenas letras maiúsculas e minúsculas</h6>
                 <div class="botoes-acao">
-                    <button type="button" class="encriptar btn btn-lg btn-warning"
+                    <button type="button" class="encriptar"
                         onclick="btnEncriptar()">Criptografar</button>
-                    <button type="button" class="desencriptar btn btn-lg btn-light"
+                    <button type="button" class="desencriptar"
                         onclick="btnDesencriptar()">Descriptografar</button>
                 </div>
             </div>
@@ -53,7 +55,7 @@
                 <textarea id="saida" class="output-texto" cols="10" rows="5" readonly></textarea>
             </div>
             <div>
-                <button id="copiar" type="button" class="btn btn-secondary" onclick="copiarTexto()">Copiar</button>
+                <button id="copiar" type="button" onclick="copiarTexto()">Copiar</button>
             </div>
 
 

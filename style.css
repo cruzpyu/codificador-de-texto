@@ -2,7 +2,7 @@
 #logo {
     margin-left: 20px;
     margin-top: 15px;
-    width: 6%;
+    width: 7%;
     background-color: transparent;
 }
 
@@ -48,30 +48,58 @@ main {
 /*---------------------------------- Botões da entrada de texto ----------------------------------*/
 .botoes-acao {
     display: flex;
-    margin-top: 20px;
+    margin-top: 2%;
     flex-direction: row;
-    font-weight: bolder;
     margin-bottom: 50px;
 }
 
 .encriptar {
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color: #ffec64;
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    color: #1F1D36;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 13px;
+    text-decoration: none;
+    border: none;
     margin-left: 330px;
-    width: 200px;
-    height: 65px;
-}
-
-.desencriptar {
-    margin-left: 20px;
-    width: 200px;
-    height: 65px;
 }
 
 .encriptar:hover {
-    transform: scale(0.97);
+    transform: scale(0.98);
+}
+
+.encriptar:active {
+    position: relative;
+    top: 1px;
+}
+
+.desencriptar {
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color: #007dc1;
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 13px 16px;
+    text-decoration: none;
+    border: none;
+    margin-left: 20px;
 }
 
 .desencriptar:hover {
-    transform: scale(0.97);
+    transform: scale(0.98);
+}
+
+.desencriptar:active {
+    position: relative;
+    top: 1px;
 }
 
 /*---------------------------------- Caixa de saída de texto -------------------------------------*/
@@ -118,10 +146,22 @@ main {
 
 
 /*---------------------------------- Botão de Copiar ---------------------------------------------*/
+
 #copiar {
-    margin: 30px 0 0 200px;
-    box-shadow: none;
-    color: white;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #1F1D36;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 7px 9px;
+    text-decoration: none;
+    margin: 2% 0 0 33%;
+    width: 15%;
 }
 
 #copiar:hover {
@@ -130,8 +170,8 @@ main {
 
 #copiar:active {
     background-color: darkolivegreen;
-    transform: scale(1);
 }
+
 
 /*---------------------------------- Rodapé ------------------------------------------------------*/
 #footer {
