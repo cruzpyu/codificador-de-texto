@@ -1,0 +1,54 @@
+@media screen and (max-width: 780px) {
+
+    /*---------------------------------- Cabeçalho ---------------------------------------------------*/
+    #logo {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    /*---------------------------------- Geral -------------------------------------------------------*/
+
+    main {
+        flex-direction: column;
+    }
+
+    /*---------------------------------- Entrada de texto --------------------------------------------*/
+
+    .input-texto {
+        margin: 50px 0 10px 40px;
+        background-color: #1F1D36;
+    }
+
+    .input-texto::placeholder {
+        font-size: 20px;
+    }
+
+    .informacao {
+        margin-left: 40px;
+    }
+
+    /*---------------------------------- Botões da entrada de texto ----------------------------------*/
+
+    .encriptar {
+        margin: 0 0 10px 40px;
+        width: 35%;
+    }
+
+    .desencriptar {
+        text-align: center;
+        margin: 0px 0 10px 30px;
+        width: 40%;
+    }
+
+    /*---------------------------------- Caixa de saída de texto -------------------------------------*/
+
+    .output-box {
+        margin: 10px 0 0 40px;
+    }
+
+    /*---------------------------------- Botão de Copiar ---------------------------------------------*/
+
+    #copiar {
+        margin: 20px 0 30px 30px;
+    }
+}
